@@ -7,9 +7,9 @@ document.getElementById("actualizar-valor").addEventListener("click", function (
   if (!isNaN(nuevoValor) && nuevoValor > 0) {
     valorPorKilo = nuevoValor;
     alert(`El valor por kilo ha sido actualizado a $${valorPorKilo.toFixed(2)} COP`);
-  } else {
-    alert("Por favor, ingresa un valor válido.");
-  }
+  } 
+   
+  
 });
 
 // Agregar nueva fila para recolector
